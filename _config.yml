@@ -27,11 +27,23 @@ url: "https://umermuzamal.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 
+author: Umer Muzamal
+
+copyright: "AWS Solutions Library"
+
+#linkedin_username: omer-muzamil-90b51a1aa
+#facebook_username: rajaumermuzamal
+
+title-logo: /images/title-logo.png
 # Build settings
-theme: minima
+# Removed minima theme as it is now a regular theme
+# theme: minima
+#_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+#plugins:
+ # - jekyll-feed
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
